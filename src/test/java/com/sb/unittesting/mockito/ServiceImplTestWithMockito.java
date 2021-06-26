@@ -14,6 +14,7 @@ import com.sb.unittesting.service.ServiceImpl;
 public class ServiceImplTestWithMockito {
 
 	ServiceImpl si = new ServiceImpl();
+	//mock method to mock the interfaces so that it creates instance of it
 	SomeDataService sds = mock(SomeDataService.class);
 
 	@Test
