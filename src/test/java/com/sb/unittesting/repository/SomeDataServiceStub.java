@@ -12,4 +12,10 @@ public class SomeDataServiceStub implements SomeDataService {
 		return Arrays.asList(1, 2, 3, 4, 5);
 	}
 
+	@Override
+	public void storeData(int num) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
