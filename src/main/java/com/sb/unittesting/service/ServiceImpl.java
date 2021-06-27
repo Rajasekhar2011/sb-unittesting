@@ -31,6 +31,7 @@ public class ServiceImpl {
 		for (int item : data) {
 			sum = sum + item;
 		}
+		if(sum%2==0) someDataService.storeData(sum);
 		return sum;
 	}
 
