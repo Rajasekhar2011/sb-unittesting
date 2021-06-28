@@ -3,17 +3,17 @@ pipeline {
 	stages {
 		stage ("install") {
 			steps {
-				bat "mvn install"
+				"mvn install"
 			}
 		}
 		stage ("test") {
 			steps {
-				bat "mvn test"
+				 "mvn test"
 			}
 		}
 		stage ("package") {
 			steps {
-				bat "mvn package"
+				 "mvn package"
 			}
 		}
 
